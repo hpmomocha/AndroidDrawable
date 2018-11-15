@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--旋转的效果  这是简单的三个shape的叠加旋转 -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 最底层的图片，以x，y轴坐标为中心进行旋转-->
+    <item>
+        <rotate android:pivotX="0" android:pivotY="0"
+            android:fromDegrees="-10" android:toDegrees="-10">
+            <shape android:shape="rectangle" android:dither="true">
+                <solid android:color="@color/colorAccent"/>
+            </shape>
+        </rotate>
+    </item>
+    <!-- 第二层的图片，以x，y轴坐标为中心进行旋转-->
+    <item>
+        <rotate android:pivotX="0" android:pivotY="0"
+            android:fromDegrees="15" android:toDegrees="15">
+            <shape android:shape="rectangle" android:dither="true">
+                <solid android:color="@color/colorPrimary"/>
+            </shape>
+        </rotate>
+    </item>
+    <!-- 最上层的图片，以x，y轴坐标为中心进行旋转-->
+    <item>
+        <rotate android:pivotX="0" android:pivotY="0"
+            android:fromDegrees="35" android:toDegrees="35">
+            <shape android:shape="rectangle" android:dither="true">
+                <solid android:color="@color/coral"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

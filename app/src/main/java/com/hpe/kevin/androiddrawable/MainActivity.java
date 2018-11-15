@@ -56,4 +56,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StateListDrawableActivity.class);
         startActivity(intent);
     }
+
+    public void clickLayerDrawable(View view) {
+        Intent intent = new Intent(this, LayerDrawableActivity.class);
+        startActivity(intent);
+    }
 }

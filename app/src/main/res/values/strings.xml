@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidDrawable</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_scale_drawable">ScaleDrawableActivity</string>
+</resources>

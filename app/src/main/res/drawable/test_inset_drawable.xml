@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <inset>标签可以将其他Drawable(比如这里的background_red)内嵌到自己(InsetDrawable)中，并且可以留出一定的间距(insetXXX)。
+    当View需要一个小于View的实际边界的背景时使用。
+-->
+<!--<inset-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:drawable="@drawable/background_red"-->
+    <!--android:insetLeft="50dp"-->
+    <!--android:insetRight="50dp"-->
+    <!--android:insetTop="50dp"-->
+    <!--android:insetBottom="50dp">-->
+
+<!--</inset>-->
+<!--
+    <inset>标签可以将其他Drawable(比如这里的shape)内嵌到自己(InsetDrawable)中，并且可以留出一定的间距(insetXXX)。
+    当View需要一个小于View的实际边界的背景时使用。
+-->
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="50dp"
+    android:insetRight="50dp"
+    android:insetTop="50dp"
+    android:insetBottom="50dp">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/colorAccent"/>
+    </shape>
+
+</inset>

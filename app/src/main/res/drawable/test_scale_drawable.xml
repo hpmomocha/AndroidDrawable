@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale android:scaleGravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/conifer_daylight_environment"
+    android:scaleHeight="50%"
+    android:scaleWidth="50%">
+
+</scale>

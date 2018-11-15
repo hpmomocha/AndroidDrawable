@@ -41,4 +41,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, InsetDrawableActivity.class);
         startActivity(intent);
     }
+
+    public void clickTransitionDrawable(View view) {
+        Intent intent = new Intent(this, TransitionDrawableActivity.class);
+        startActivity(intent);
+    }
 }

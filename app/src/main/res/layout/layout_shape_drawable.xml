@@ -5,10 +5,27 @@
     android:orientation="vertical"
     android:layout_margin="50dp">
 
-    <ImageView
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/test_shape_drawable_rectangle"/>
+        android:background="@drawable/test_shape_drawable_rectangle"
+        android:text="Hello world!"/>
 
+    <ImageView
+        android:id="@+id/dashLine"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/test_shape_drawable_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test_shape_drawable_ring"
+        android:text="Hello world!"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test_shape_drawable_oval"/>
 
 </LinearLayout>
